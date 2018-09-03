@@ -1,2 +1,2 @@
 # nixfiles
-My personal nixos configuration
+My personal nixos configuration, see Makefile.
