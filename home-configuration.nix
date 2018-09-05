@@ -6,12 +6,7 @@
   ];
 
   home.file.".tmux.conf".source = ./dotfiles/tmux.conf;
-
-  programs.git = {
-    enable = true;
-    userName = "vkarppinen";
-    userEmail = "karppinenvaltteri@gmail.com";
-  };
+  home.file.".config/git/config".source = ./dotfiles/gitconfig;
 
   programs.zsh.enable = true;
   programs.zsh.history.share = false;
