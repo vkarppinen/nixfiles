@@ -5,6 +5,8 @@
     powerline-fonts # for spaceship prompt
   ];
 
+  home.file.".tmux.conf".source = ./dotfiles/tmux.conf;
+
   programs.git = {
     enable = true;
     userName = "vkarppinen";
