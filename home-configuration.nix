@@ -3,6 +3,9 @@
 {
   home.packages = with pkgs; [
     powerline-fonts # for spaceship prompt
+    imagemagick
+    gimp
+    python36Full
   ];
 
   home.file.".tmux.conf".source = ./dotfiles/tmux.conf;
