@@ -126,6 +126,7 @@
       tmux
       chromium
       vscode
+      libreoffice
     ];
 
   # This value determines the NixOS release with which your system is to be

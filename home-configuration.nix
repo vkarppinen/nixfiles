@@ -6,6 +6,8 @@
     imagemagick
     gimp
     python36Full
+    jetbrains.pycharm-community
+    elmPackages.elm-format
   ];
 
   home.file.".tmux.conf".source = ./dotfiles/tmux.conf;
