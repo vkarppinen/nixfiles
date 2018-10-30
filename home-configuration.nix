@@ -8,6 +8,7 @@
     python36Full
     jetbrains.pycharm-community
     elmPackages.elm-format
+    go
   ];
 
   home.file.".tmux.conf".source = ./dotfiles/tmux.conf;

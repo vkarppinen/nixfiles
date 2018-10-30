@@ -125,10 +125,14 @@
       wget
       tmux
       chromium
-      vscode
+      atom
       libreoffice
+      go
     ];
-
+  environment.variables = {
+    GOROOT = [ "${pkgs.go.out}/share/go" ];
+    GOPATH = [ "$HOME/code/go" ];
+  };
   # This value determines the NixOS release with which your system is to be
   # compatible, in order to avoid breaking some software such as database
   # servers. You should change this only after NixOS release notes say you
