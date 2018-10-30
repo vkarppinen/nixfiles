@@ -86,7 +86,7 @@
     layout = "fi";
     xkbOptions = "eurosign:e";
     libinput.enable = true;
-    #synaptics.enable = true;
+    synaptics.enable = false;
 
     # Enable the KDE Desktop Environment.
     #displayManager.sddm.enable = true;
